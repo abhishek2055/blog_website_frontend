@@ -1,0 +1,131 @@
+.register{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;  
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220112/pngtree-glass-morphim-effect-registration-banner-with-gradient-blue-image_934693.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.register-card{
+    height: fit-content;
+    width: fit-content;
+    padding: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 1px 2px 4px 5px rgb(65, 245, 248);
+    
+}
+.register-card h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 3px;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.username, .email, .password,.displayPic{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.labels{
+    font-size: large;
+    font-weight:bold;
+}
+.inputs{
+    font-size: 1rem;
+    font-weight: 300;
+    width: 100%;
+    
+    height: 2rem;
+    text-decoration: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.image-box{
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 5px;
+}
+.image-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.choose-btn{
+    font-size: larger;
+    text-align: center;
+    padding: 4px 8px;
+    text-decoration: none;
+    cursor: pointer;
+
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.register-btn{
+    font-size: larger;
+    text-align: center;
+    padding: 4px 8px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+@media screen and (max-width: 700px) {
+
+    .register-card{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .register-card h1{
+        font-size: 1.5rem;
+        padding: 2px;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .labels{
+        font-size: medium;
+        font-weight:bold;
+    }
+    .inputs{
+        font-size: 0.5rem;
+        outline: none;
+        border-radius: 5px;
+        
+    }
+    .login-btn{
+        font-size: large;
+        padding: 3px 6px;
+   
+    }
+    .choose-btn{
+        font-size: large;
+        width: 80vw;
+        text-align: center;
+        padding: 2px 4px;
+        text-decoration: none;
+        cursor: pointer;
+    
+        outline: none;
+        border: none;
+        border-radius: 4px;
+    }
+
+}

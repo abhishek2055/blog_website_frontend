@@ -1,0 +1,125 @@
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.post{
+    width: 50vw;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+@media screen and (max-width: 700px) {
+    .post{
+        width: 80vw;
+        max-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        position: relative;
+    }
+}
+.search{
+    position: relative;  
+}
+.posts .search .search-box{
+    font-size: 1rem;
+    border-radius: 4px;
+    max-width: 15rem;
+    text-decoration: none;
+    outline: none;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+.search-icon{    
+    font-size: 1rem;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.post_user{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    max-width: 100%;
+    align-items: center;
+}
+.post_user .user {
+    display: flex;
+    gap: 8px;
+}
+.post_user .user h3 span {
+font-size: 0.8rem;
+}
+.post_user .dots{
+    cursor: pointer;
+}
+
+.post_user .user img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.post .image-boxx{
+    min-width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.post .image-boxx .image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.post .actions{
+    display: flex;
+    justify-content: space-between;
+}
+.post .actions .luv_cmt_share{
+    display: flex;
+    gap: 1rem;
+}
+.post .post-title{
+    max-width: 90%;
+    max-height: 3rem;
+    overflow: hidden;    
+    word-wrap: break-word;
+}
+.post .post-learn-more{
+    height: auto;
+    width: fit-content;
+    padding: 4px;
+    color: #fff;
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+.post .post-learn-more:hover{
+background-color: blueviolet;
+color: beige;
+}
+.post-learn-more-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* pos------------------------------------------------------------------------------------------------ */
+

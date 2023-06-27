@@ -1,0 +1,94 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0E2954;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 8px;
+    padding-right: 5rem;
+    width: 100vw;
+}
+.btn-links{
+    display: flex;
+}
+.nav button{
+    display: none;
+}
+.login-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-user img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(179, 124, 52);
+    padding: 2px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .nav{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .nav .links{
+        display: none;
+    }
+    .nav button{
+        display: block;
+    }
+    .btn-links{
+        display: flex;
+        flex-direction: row;
+        
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .nav .links-mobile {  
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 0.7rem;
+        margin-top: 1rem;
+    }
+
+    .ham-and-cut{
+        background-color: #0E2954;
+        border: none;
+    }
+  }
+
+.nav h4{
+    color: white;
+    font-size: inherit;
+    text-align: center;
+    padding: 2px;
+    height: fit-content;
+    
+}
+
+
+
+.links{
+    display: flex;
+    gap: 1rem;
+}
+.links .link{
+    text-decoration: none;
+}
+
+
+.links h4:hover{
+cursor: pointer;
+}
+.links h4:hover{
+    background-color: rgb(14, 14, 14);
+    padding: 1px;
+    color: antiquewhite;
+    }
