@@ -18,9 +18,33 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
 }
+.comment-section .user-add-comment-box {
+    display: flex;
+}
+.comment-section .user-add-comment-box .add-comment-box{
+    height: 2rem;
+    width: 30%;
+    font-size: 1.3rem;
+    padding-right: 3rem;
+    border: none;
+}
+.comment-section .user-add-comment-box .login-user-profile{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.post-comment{
+    padding: 3px;
+    margin-left: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 700px) {
     .post{
-        width: 80vw;
+        width: 100vw;
         max-height: fit-content;
         display: flex;
         flex-direction: column;
